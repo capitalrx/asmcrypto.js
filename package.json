@@ -45,7 +45,6 @@
     "uglify-js": "^3.3.25"
   },
   "scripts": {
-    "prepublish": "node -r esm build.js",
     "test": "node -r esm build.js && mocha -r esm test/*.js",
     "prettier": "prettier --single-quote --trailing-comma all --write \"src/**/*.js\" \"src/**/*.ts\" --print-width 120"
   },
