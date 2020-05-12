@@ -1,10 +1,5 @@
-asmcrypto*.js
-asmcrypto*.mjs
-asmcrypto*.map
 test/aes.asm.js
 test/aes.asm.js.map
 doc/
 node_modules/
 .idea/
-dist_es5
-dist_es8
